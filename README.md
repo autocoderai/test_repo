@@ -26,12 +26,15 @@
 ```bash
 npm install -g @slauth.io/slauth
 ```
-
-## Usage
-
-1. Set the `OPENAI_API_KEY` environment variable: `export OPENAI_API_KEY=<key>`
-2. Run `slauth --help` to see available commands
-
+We're always open to feedback!
+<br>
+If you have any or are in need of some help, please join our <a href="https://join.slack.com/t/slauthiocommunity/shared_invite/zt-268nxuwyd-Vav8lYJdiP44Kt8lQSSybg">Slack Community</a>
+<br>
+<br>
+We welcome contributions from the developer community. If you're interested in contributing to this project, please feel free to submit a pull request or open an issue.
+<br>
+<br>
+<img alt="NPM Downloads" src="https://img.shields.io/npm/dw/@slauth.io/slauth" />
 ### Commands
 
 #### Scan
