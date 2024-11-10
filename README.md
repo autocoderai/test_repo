@@ -26,12 +26,20 @@
 ```bash
 npm install -g @slauth.io/slauth
 ```
+If you have any or are in need of some help, please join our <a href="https://join.slack.com/t/slauthiocommunity/shared_invite/zt-268nxuwyd-Vav8lYJdiP44Kt8lQSSybg">Slack Community</a>
+</p>
 
-## Usage
+## Contributing
 
-1. Set the `OPENAI_API_KEY` environment variable: `export OPENAI_API_KEY=<key>`
-2. Run `slauth --help` to see available commands
+We welcome contributions from the open-source community! If you're interested in contributing to this project, we encourage you to do so. First-time contributors are especially welcome and encouraged to work on issues with the `low-hanging-fruit` tag.
 
+To get started, simply fork the repository, make your changes, and submit a pull request. We'll review your changes and provide feedback. If everything looks good, we'll merge your contribution into the main codebase.
+
+We're always looking to improve this project, so don't hesitate to submit bug reports, feature requests, or other feedback. Let's work together to make this tool even better!
+
+## Installation
+
+```bash
 ### Commands
 
 #### Scan
