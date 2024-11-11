@@ -26,12 +26,19 @@
 ```bash
 npm install -g @slauth.io/slauth
 ```
-
-## Usage
-
-1. Set the `OPENAI_API_KEY` environment variable: `export OPENAI_API_KEY=<key>`
 2. Run `slauth --help` to see available commands
 
+### Commands
+
+## Contributing
+
+We welcome contributions from the open-source community! First-time contributors are encouraged to work on issues with the `low-hanging-fruit` tag. Please feel free to submit bug reports, feature requests, or pull requests. We appreciate your feedback and support in making this project better.
+
+If you have any questions or need assistance, please join our [Slack Community](https://join.slack.com/t/slauthiocommunity/shared_invite/zt-268nxuwyd-Vav8lYJdiP44Kt8lQSSybg).
+
+#### Scan
+
+The scan command will look for any calls of your Cloud Provider `sdk` in your git repository and generate the necessary permissions for it.
 ### Commands
 
 #### Scan
