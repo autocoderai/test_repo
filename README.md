@@ -24,12 +24,19 @@
 ## Installation
 
 ```bash
-npm install -g @slauth.io/slauth
-```
-
-## Usage
-
 1. Set the `OPENAI_API_KEY` environment variable: `export OPENAI_API_KEY=<key>`
+2. Run `slauth --help` to see available commands
+
+## Contributing
+
+We welcome contributions from the open-source community! First-time contributors are especially encouraged to work on issues with the `low-hanging-fruit` tag.
+
+If you have any ideas or feedback, please feel free to open an issue or submit a pull request. We're always excited to hear from our users and improve the project.
+
+
+### Commands
+
+#### Scan
 2. Run `slauth --help` to see available commands
 
 ### Commands
