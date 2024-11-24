@@ -153,9 +153,28 @@ permissions:
   contents: read
 
 jobs:
-  release:
-    name: policy-scan
-    runs-on: ubuntu-latest
+3. Install the `slauth` CLI globally: `npm install -g .`
+4. Compile tsc on file change: `npm run build-watch`
+5. Test it, `slauth -h` should work
+
+## Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes and commit them with clear commit messages
+4. Push to your fork and submit a pull request
+
+### New Contributors
+
+If you're new to the project, look for issues labeled with 'low-hanging-fruit'. These are specifically selected to be more approachable for first-time contributors.
+
+For more details on contributing, please check our contribution guidelines in the `.github` directory.
+
+Before submitting your pull request, please ensure:
+- All lint checks pass (`npm run lint`)
+- Code is properly formatted (`npm run format`)
     steps:
       - name: Checkout
         uses: actions/checkout@v3
