@@ -156,9 +156,26 @@ jobs:
   release:
     name: policy-scan
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+3. Install the `slauth` CLI globally: `npm install -g .`
+4. Compile tsc on file change: `npm run build-watch`
+5. Test it, `slauth -h` should work
+
+## Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### For First-Time Contributors
+- Look for issues labeled with 'low-hanging-fruit' - these are perfect for getting started
+- These issues are specifically selected to be more approachable for new contributors
+
+### How to Contribute
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes
+4. Submit a pull request with a clear description of the changes
+
+Please ensure you follow our coding standards and include appropriate tests if applicable.
+
         with:
           fetch-depth: 0
       - name: Setup Node.js
